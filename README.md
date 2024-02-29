@@ -19,7 +19,7 @@ This is a one-page portfolio website showcasing the work and skills of DarkDevil
 1. Clone the repository: `git clone https://github.com/DarkDevilDev1/Bottom-menu`
 2. Navigate to the project directory.
 3. Open the `index.html` file in a web browser to view the website locally.
-4. [Take a view of our website]()
+4. [Take a view of our website](https://darkdevildev1.github.io/Bottom-menu/)
 
 ## License
 This project is licensed under DD Studio. For licensing inquiries, please contact DD Studio via their Discord server: [DD Studio Discord](https://discord.com/invite/2sbw5CHrCF).
