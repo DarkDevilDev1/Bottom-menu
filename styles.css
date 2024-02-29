@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffea;
+  color: #000000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5em;
+  flex-direction: column;
+  position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    width: 90%; 
+    background-color: #ffffea;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 40px;
+}
+
+.navbar a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 9em;
+  border-radius: 20px;
+}
+
+.name {
+  font-size: 18px;
+  margin-right: 4em;
+  
+}
+
+.nav-list {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.001em;
+  color: #000000;
+  font-weight: 300;
+  display: flex;
+}
+.nav-list i{
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 10px;
+  padding-left: 0.001;
+  font-size: 20px;
+  display: flex;
+}
+
+@media(min-width: 768px) and (max-width: 5000px){
+      header{
+         height: 3rem;
+         position: fixed;
+         top: 0;
+      }
+ 
+     .logo-container {
+       display: flex;
+       align-items: center;
+}
+
+     .logo {
+       width: 40px;
+       height: 40px;
+       margin-right: 47em;
+       border-radius: 20px;
+}
+
+     .name {
+       display: none;
+  
+}
+     .navbar {
+       display: fixed;
+       width: 50%;
+       bottom: 96%;
+       margin-left: 35em;
+       z-index: 10;
+       }
+       
+ 
+}
+
+
+#hero {
+    background-size: cover;
+    color: #2b33566d;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+#about{
+    background-size: cover;
+    color: #2b33566d;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#about h2{
+    font-size: 1.2em;
+    font-weight: Bold;
+}
+
+#about p{
+    font-size: 1em;
+}
+
+#skills{
+    text-align: center;
+}
+/* Common styles for all screen sizes */
+.skills-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 80%; /* Default to full width */
+}
+
+.skills-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skills-card h3 {
+    color: #333;
+}
+
+.skills-card p {
+    color: #666;
+}
+
+section {
+    padding: 4em 2em;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2em 0;
+}
+
+
+.contact-us {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.discord-icon{
+  position: fixed; 
+  bottom: 15%;
+  right: 20px;   
+  width: 50px; 
+  height: 50px;   
+  cursor: pointer; 
+  border-radius: 25px;
+    }
+}
+
+.contact-section {
+  padding: 50px;
+  text-align: center;
+  /* ... other styles for background, border, etc. */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+  width: 80px;
+  text-align: right;
+}
+
+input, textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.footer {
+  background-color: #f0f0f0; /* Customize background color */
+  padding: 2rem;
+  text-align: center; /* Center content by default */
+}
